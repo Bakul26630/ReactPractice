@@ -1,0 +1,206 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+  --item-height: 1.8rem;
+}
+
+.logo-image {
+  height: 16vh;
+  width: 20vw;
+}
+
+.input-container {
+  width: 70vw;
+  padding: 20px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+
+.input-field {
+  font-size: 2.3rem;
+  outline: none;
+  border: none;
+}
+
+.input-field-icon {
+  color: rgb(2, 82, 82);
+  width: 3em !important;
+  height: 3em !important;
+  margin: 0px 10px;
+}
+
+.input-field-icon:hover {
+  color: rgb(41, 164, 86);
+}
+
+
+/* List-Item styling */
+.item{
+  height: fit-content;
+  width: 70vw;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.item-value {
+  font-size: 1.8rem;
+  margin: auto 0px;
+  border-radius: 10px;
+}
+
+.item-buttons-container {
+  margin: auto 0px;
+}
+
+.item-buttons {
+  height: 1.8rem !important;
+  width: 1.8rem !important;
+}
+
+.list-container{
+  max-height: 50vh;
+  overflow: auto;
+}
+.edit {
+  color: #9AA4Ec;
+}
+
+.delete {
+  color: #4EA1D3;
+}
+
+.delete:hover {
+  color: #D22D16;
+}
+
+.edit:hover {
+  color: #3D405B;
+}
+
+/* Button Styling */
+.check-btn {
+  font-size: 1.5rem;
+  padding: 0.5rem 3.5rem;
+  background-color: #F64C72;
+  color: whitesmoke;
+  text-transform: capitalize;
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+
+.check-btn:hover {
+  background-color: #8EE4AF;
+  color: #05386B;
+}
+
+/* Responsive Code */
+@media screen and (max-width:426px) {
+  .logo-image{
+    height: 14vh;
+    width: 10vw;
+  }
+  .head{
+    font-size: 2rem;
+  }
+  .input-field-icon{
+    width: 1.5em!important;
+    height: 1.5em!important;
+  }
+  .input-field{
+    font-size: 1rem;
+  }
+  .item-container{
+    padding: 1rem 0px;
+  }
+  .check-btn{
+    font-size: 1.3rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .item-value {
+    font-size: 1rem;
+    margin: auto 0px;
+    border-radius: 10px;
+  }
+  
+  .item-buttons-container {
+    margin: auto 0px;
+    padding-right: 10px;
+  }
+  
+  .item-buttons {
+    height: 1rem !important;
+    width: 1rem !important;
+  }
+   
+}
+
+@media screen and (min-width: 1024px) {
+  .input-container{
+    width: 40vw;
+  }
+  .item{
+    width: 40vw;
+  }
+  .input-field{
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .input-container{
+    width: 42vw;
+  }
+  .item{
+    width: 42vw;
+  }
+}
+
+@media screen and (min-width:2560px) {
+  .logo-image{
+    height: 24vh;
+    width: 20vw;
+  }
+  .head{
+    font-size: 5rem;
+  }
+  .input-container{
+    width: 50vw;
+  }
+  .input-field{
+    font-size: 4rem;
+  }
+  .item-container{
+    padding: 2rem 0px;
+  }
+  .check-btn{
+    font-size: 2.5rem;
+    padding: 1.5rem 4rem;
+  }
+
+  .item-value {
+    font-size: 3rem;
+    margin: auto 0px;
+    border-radius: 10px;
+  }
+  
+  .item-buttons-container {
+    margin: auto 0px;
+  }
+  
+  .item-buttons {
+    height: 3rem !important;
+    width: 3rem !important;
+  }
+  
+}
